@@ -9,9 +9,9 @@ function Feature() {
     return (
         <div id="features">
             <div className="a-container">
-                <FeatureBox image={featureimage} title="Development course" />
-                <FeatureBox image={featureimage1} title="Development course" />
-                <FeatureBox image={featureimage2} title="Development course" />
+                <FeatureBox image={featureimage} title="Development course" alt="" />
+                <FeatureBox image={featureimage1} title="Development course" alt="" />
+                <FeatureBox image={featureimage2} title="Development course" alt="" />
 
             </div>
             

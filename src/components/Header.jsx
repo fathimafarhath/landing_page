@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import Navbar from './Navbar'
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
             <div className="name">
                 <h1><span>Launch Your App</span>With Confidence and Creativity</h1>
                 <p className="details">Lorem Ipsum is simply dummy text of the printing and typesetting industr</p>
-                <a href="#" className="cv-btn">Download</a>
+                <Link to="#" className="cv-btn">Download</Link>
             </div>
         </div>
     )
